@@ -1,2 +1,3 @@
-# oci-genai-vectorsearch-hol03
-Tutorial for RAG with OCI Generative AI Service ,Oracle Database and LangChain
+# 概要
+# 利用サービス
+# コード概説
