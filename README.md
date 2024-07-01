@@ -1,6 +1,6 @@
 # RAGの構成とシナリオ
 ### RAGの構成
-本記事でご紹介するRAGの構成と処理フローの概要が下図になります。[前回はフル・スクラッチでRAGを実装しました](https://qiita.com/ksonoda/items/c300e734a5b1bef7b872)が、今回はLangChainを使った構成となります。LangChainはかなり強力なフレームワークで、LLMを使ったアプリケーションの開発ユーザー御用達のライブラリです。
+本HOLはLangChainを使ったRAG構成です。
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/109260/f95375f5-8778-8208-4bb2-546dd49f9497.png)
 
