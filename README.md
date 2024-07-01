@@ -1,6 +1,6 @@
 # RAGの構成とシナリオ
 ### RAGの構成
-本HOLはLangChainを使ったRAG構成です。
+本チュートリアルはLangChainを使ったRAG構成をステップバイステップで実装する内容となっています。
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/109260/f95375f5-8778-8208-4bb2-546dd49f9497.png)
 
