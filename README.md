@@ -127,7 +127,13 @@ END;
 
 ここからはPythonで処理を行います。本記事ではPythonの実行環境はOracle Databaseと同じOS環境にAnacondaをインストールしていますが、どこにPython環境を作成していても大丈夫です。
 
-まずは、LangChainのドキュメントローダーで/tmpに配置したPDFファイルをロードし、テキストに変換します。
+始めに必要なライブラリをインストールしておきます。
+
+```python
+!pip install -Uq oracledb pypdf cohere langchain langchain-community langchain-core oci
+```
+
+そして、LangChainのドキュメントローダーで/tmpに配置したPDFファイルをロードし、テキストに変換します。
 
 ```python
 from langchain.document_loaders import PyPDFLoader
